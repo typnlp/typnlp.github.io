@@ -1,2 +1,71 @@
 ---
 ---
+
+@techreport{57c4e611580345b2b99ccad9a332b278,
+title = "Utilizing Phonetic Similarity for Cross-source and Cross-language Toponym Matching - a Benchmark and Prototype",
+abstract = "The writings of one ancient civilization often overlap in time and space with others. Many of these sources comprise unstructured text in ancient languages, causing scholars studying these civilizations to be siloed, often relying on sources in a single language. Recent efforts to extract structured information from historical scripts into place (toponym) and people databases (prospographies) have followed this pattern, focusing on one civilization or even one scholar. The path to creating a common database runs through aligning names or toponyms between sources from disparate languages utilizing different scripts. Existing multi-lingual orthographic (string-based) comparison often relies on transliteration to a common script (Latin/English). Transliteration often creates multiple options and even more confusion. However, when integrating sources that overlap in space and time, the languages often share a common phonetic background. This commonality may prove beneficial. In this work, we present a benchmark for comparing toponyms from two linguistically and culturally related languages, namely Hebrew and Arabic. We provide a benchmark comprised of a set of dataset pairs created from both historical sources written in ancient variants of these languages as well as a modern dataset curated from Wikidata. We empirically evaluate several toponym comparison approaches over the benchmark: transliteration to a common script, direct transliteration, and phonetic comparison using a common phonetic representation. We discuss the results and the limitations of the various methods and outline future work.",
+keywords = "Toponym Matching, Transliteration",
+author = "Tomer Sagi and Moran Zaga and Sinai Rusinek and Marcell Fekete and Johannes Bjerva and Katja Hose",
+year = "2024",
+month = mar,
+day = "20",
+doi = "https://doi.org/10.21203/rs.3.rs-4136375/v1",
+language = "English",
+type = "WorkingPaper",
+abbr = "Pre-print",
+}
+
+
+@inbook{fa68379aef2141f8a691759127980908,
+title = "Typological Challenges for the Application of Multilingual Language Models in the Digital Humanities",
+keywords = "Natural Language Processing, Multilinguality, Digital Humanities, linguistic typology, Interdisciplinarity",
+author = "Fekete, Marcell and Johannes Bjerva and Lisa Beinborn",
+year = "2023",
+month = dec,
+day = "28",
+doi = "10.4324/9781003393696-13",
+language = "English",
+isbn = "9781032491943",
+series = "Digital Research in the Arts and Humanities",
+publisher = "Routledge",
+editor = "Lorella Viola and Paul Spence",
+booktitle = "Multilingual Digital Humanities",
+address = "United Kingdom",
+abbr = "MDH",
+}
+
+
+@inproceedings{b5f2468393ff4d9bbab651074e3b056d,
+title = "Gradual Language Model Adaptation Using Fine-Grained Typology",
+abstract = "Transformer-based language models (LMs) offer superior performance in a wide range of NLP tasks compared to previous paradigms. However, the vast majority of the world's languages do not have adequate training data available for monolingual LMs (Joshi et al., 2020). While the use of multilingual LMs might address this data imbalance, there is evidence that multilingual LMs struggle when it comes to model adaptation to to resource-poor languages (Wu and Dredze, 2020), or to languages which have typological characteristics unseen by the LM ({\"U}st{\"u}n et al., 2022). Other approaches aim to adapt monolingual LMs to resource-poor languages that are related to the model language. However, there are conflicting findings regarding whether language relatedness correlates with successful adaptation (de Vries et al., 2021), or not ({\'A}cs et al., 2021).With gradual LM adaptation, our approach presented in this extended abstract, we add to the research direction of monolingual LM adaptation. Instead of direct adaptation to a target language, we propose adaptation in stages, first adapting to one or more intermediate languages before the final adaptation step. Inspired by principles of curriculum learning (Bengio et al., 2009), we search for an ideal ordering of languages that can result in improved LM performance on the target language. We follow evidence that typological similarity might correlate with the success of cross-lingual transfer (Pires et al., 2019; {\"U}st{\"u}n et al., 2022; de Vries et al., 2021) as we believe the success of this transfer is essential for successful model adaptation. Thus we order languages based on their relative typological similarity between them. In our approach, we quantify typological similarity using structural vectors as derived from counts of dependency links (Bjerva et al., 2019), as such fine-grained measures can give a more accurate picture of the typological characteristics of languages (Ponti et al., 2019).We believe that gradual LM adaptation may lead to improved LM performance on a range of resource-poor languages and typologically diverse languages. Additionally, it enables future research to evaluate the correlation between the success of cross-lingual transfer and various typological similarity measures.",
+keywords = "Natural Language Processing, Computational Typology, Artificial Intelligence (AI), Low-resource settings",
+author = "Fekete, {Marcell Richard} and Johannes Bjerva",
+year = "2023",
+month = may,
+doi = "10.18653/v1/2023.sigtyp-1.19",
+language = "English",
+pages = "153--158",
+booktitle = "Proceedings of the 5th Workshop on Research in Computational Linguistic Typology and Multilingual NLP",
+publisher = "Association for Computational Linguistics",
+address = "United States",
+note = "The 17th Conference of the European Chapter of the Association for Computational Linguistics, EACL 2023 ; Conference date: 02-05-2023 Through 06-05-2023",
+url = "https://2023.eacl.org/",
+abbr = "SIGTYP",
+}
+
+
+@article{82213be674014532b547a477d779c5c3,
+title = "CreoleVal: Multilingual Multitask Benchmarks for Creoles",
+abstract = "Creoles represent an under-explored and marginalized group of languages, with few available resources for NLP research. While the genealogical ties between Creoles and a number of highly-resourced languages imply a significant potential for transfer learning, this potential is hampered due to this lack of annotated data. In this work we present CreoleVal, a collection of benchmark datasets spanning 8 different NLP tasks, covering up to 28 Creole languages; it is an aggregate of novel development datasets for reading comprehension, relation classification, and machine translation for Creoles, in addition to a practical gateway to a handful of preexisting benchmarks. For each benchmark, we conduct baseline experiments in a zero-shot setting in order to further ascertain the capabilities and limitations of transfer learning for Creoles. Ultimately, we see CreoleVal as an opportunity to empower research on Creoles in NLP and computational linguistics, and in general, a step towards more equitable language technology around the globe. ",
+keywords = "Natural Language Processing, NLP, Creoles, Language modeling",
+author = "Heather Lent and Kushal Tatariya and Raj Dabre and Yiyi Chen and Marcell Fekete and Esther Ploeger and Li Zhou and Ruth-Ann Armstrong and Abee Eijansantos and Catriona Malau and Heje, {Hans Erik} and Ernests Lavrinovics and Diptesh Kanojia and Paul Belony and Marcel Bollmann and Lo{\"i}c Grobol and {de Lhoneux}, Miryam and Daniel Hershcovich and Michel DeGraff and Anders S{\o}gaard and Johannes Bjerva",
+year = "2024",
+month = apr,
+day = "10",
+doi = "10.48550/arXiv.2310.19567",
+language = "English",
+journal = "Transactions of the Association for Computational Linguistics (TACL)",
+issn = "2307-387X",
+publisher = "MIT Press",
+abbr = "TACL",
+}

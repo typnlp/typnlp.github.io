@@ -1,25 +1,102 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  align: left
+  image: typnlp.png
+  image_circular: true # crops the image to make it circular
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+groups: [staff, support]
+staff:
+  title: Research Staff
+  people:
+    - name: Johannes Bjerva
+      description: Associate Professor <br> Head of TypNLP
+      website: https://bjerva.github.io/
+      picture: people/Johannes.jpg
+    - name: Heather Lent
+      description: Postdoc (2022–)
+      website: https://vbn.aau.dk/da/persons/154463
+      picture: people/Heather.jpg
+    - name: Mike Zhang
+      description: Postdoc (2024–)
+      website: https://jjzha.github.io/
+      picture: people/Mike.jpg
+    - name: Yiyi Chen
+      description: PhD Fellow (2022–)
+      website: https://siebeniris.github.io/
+      picture: people/Yiyi.jpg
+    - name: Marcell Fekete
+      description: PhD Fellow (2022–)
+      website: https://vrmer.github.io/
+      picture: people/Marcell.jpg
+    - name: Esther Ploeger
+      description: PhD Fellow (2022–)
+      website: https://vbn.aau.dk/en/persons/155453
+      picture: people/Esther.jpg
+
+support:
+  title: Support Staff
+  people:
+    - name: Ernests Lavrinovićs
+      description: Research Assistant (2024–)
+      website: https://ernlavr.github.io/
+      picture: people/Ernests.jpg
+  
+
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+  <h1><b>TypNLP</b> Research Lab</h1>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+  Welcome to the TypNLP research lab at the Data, Knowledge, and Web Engineering group 
+  at Aalborg University led by <a href="https://bjerva.github.io/">Associate Professor Johannes Bjerva</a>. 
+  The lab engages in research in Natural Language Processing (NLP), with interdisciplinary overlap in Education 
+  and Cybersecurity. Our scope revolves around leveraging linguistic synergies between languages to develop robust 
+  NLP models and building NLP applications that aid multiple domains outside of NLP.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+  <div class="projects">
+    <h2 class="category">News</h2>
+      {% include news.liquid %}
+
+  {%- for group in page.groups -%}
+  <h2 class="category">{{page.[group].title}}</h2>
+    <div class="grid">
+      {%- for person in page.[group].people -%}
+          <article class="grid-item card">
+            {% if person.picture -%}
+              <img class="avatar" src="/assets/img/{{person.picture}}" alt="Portrait ({{person.name}})" width="auto" height="auto">
+            {%- else -%}
+              <img class="avatar" src="/assets/img/typnlp.png" alt="Portrait ({{person.name}})" width="auto" height="auto">
+            {%- endif -%}
+          <div class="card-body">
+            <!-- <h2 class="card-title">{{person.name}}</h2> -->
+            <h2 class="card-title">
+              {% if person.website -%}
+                <a href="{{person.website}}">{{person.name}}</a>
+              {%- else -%}
+                {{person.name}}
+              {%- endif -%}
+            </h2>
+            <div class="card-text">
+              {{person.description}}
+              </div>
+            </div>
+          </article>
+      {%- endfor -%}
+    </div>
+  {%- endfor -%}
+
+ <h2 class="category">Alumni</h2>
+  <ul>
+    <li>Hans Heje (Research Assistant, 2023–2024)</li>
+  </ul>
+
+  <h2 class="category">Job Openings</h2>
+  Join us! <a href="/jobs">→Open positions</a>

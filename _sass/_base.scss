@@ -163,18 +163,20 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
+  box-shadow: none;
 
   img {
-    width: 100%;
+    width: 50%;
   }
 
   .card-title {
     color: var(--global-text-color);
+    font-size: larger;
+    text-align: center;
   }
 
   .card-item {
     width: auto;
-    margin-bottom: 10px;
 
     .row {
       display: flex;
@@ -182,6 +184,7 @@ ul.task-list input[type="checkbox"] {
     }
   }
 }
+
 
 // Citation
 
@@ -193,7 +196,7 @@ ul.task-list input[type="checkbox"] {
 // Profile
 
 .profile {
-  width: 100%;
+  width: 50%;
 
   .more-info {
     margin-bottom: 5px;
@@ -382,7 +385,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
       i::before {
@@ -473,7 +476,7 @@ footer.sticky-bottom {
 
   .card {
     background-color: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
+    // border: 1px solid var(--global-divider-color);
 
     .list-group-item {
       background-color: inherit;
@@ -624,16 +627,22 @@ footer.sticky-bottom {
 
   .card {
     img {
-      width: 100%;
+      border-radius: 50%;
+      height: 160px;
+      width: 160px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 
   .card-item {
     width: auto;
-    margin-bottom: 10px;
 
     .row {
       display: flex;
+      flex-direction: column;
       align-items: center;
     }
   }
@@ -641,16 +650,25 @@ footer.sticky-bottom {
   .grid-sizer,
   .grid-item {
     width: 250px;
-    margin-bottom: 10px;
+    height: 280px;
+    object-fit: cover;
+    word-wrap: break-word;
+    background-clip: border-box;
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    align-items: center;
+    
   }
 
   h2.category {
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 1.2rem;
   }
 }
 
@@ -1126,16 +1144,4 @@ swiper-container {
   --swiper-navigation-color: var(--global-theme-color);
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
-}
-
-.ps-root {
-  .ps-algorithm {
-    margin: 0.8em 0;
-    border-top: 3px solid var(--global-text-color);
-    border-bottom: 2px solid var(--global-text-color);
-  }
-
-  .ps-algorithm.with-caption > .ps-line:first-child {
-    border-bottom: 2px solid var(--global-text-color);
-  }
 }

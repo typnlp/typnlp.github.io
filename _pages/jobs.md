@@ -7,4 +7,4 @@ nav: true
 nav_order: 4
 ---
 
-Join us at TypNLP.
+[Work in Progress]

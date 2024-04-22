@@ -7,6 +7,8 @@ nav_order: 3
 horizontal: false
 ---
 
+[Work in Progress]
+
 <!-- pages/projects.md -->
   <h2 class="category">Multilingual Modelling for Resource-poor Languages (2022–2025)</h2>
   <p>Carslberg Foundation, Semper Ardens: Accelerate</p>

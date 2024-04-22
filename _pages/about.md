@@ -23,7 +23,7 @@ staff:
       picture: people/Johannes.jpg
     - name: Heather Lent
       description: Postdoc (2022–)
-      website: https://vbn.aau.dk/da/persons/154463
+      website: https://vbn.aau.dk/da/persons/154463/
       picture: people/Heather.jpg
     - name: Mike Zhang
       description: Postdoc (2024–)
@@ -39,7 +39,7 @@ staff:
       picture: people/Marcell.jpg
     - name: Esther Ploeger
       description: PhD Fellow (2022–)
-      website: https://vbn.aau.dk/en/persons/155453
+      website: https://vbn.aau.dk/en/persons/155453/
       picture: people/Esther.jpg
 
 support:

@@ -761,13 +761,13 @@ footer.sticky-bottom {
         }
 
         > span.more-authors {
-          color: var(--global-text-color-light);
-          border-bottom: 1px dashed var(--global-text-color-light);
+          color: var(--global-text-color);
+          border-bottom: 1px dashed var(--global-text-color);
           cursor: pointer;
 
           &:hover {
             color: var(--global-text-color);
-            border-bottom: 1px dashed var(--global-text-color);
+            border-bottom: 1px dashed var(--global-text-color-light);
           }
         }
       }

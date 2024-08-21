@@ -13,7 +13,8 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
-groups: [staff, support]
+# groups: [staff, support]
+groups: [staff]
 staff:
   title: Research Staff
   people:
@@ -53,6 +54,15 @@ staff:
       description: Industrial PhD Fellow (2024–)
       website: https://vbn.aau.dk/da/persons/rtaj
       picture: typnlp-5.png
+
+# support:
+#   title: Support Staff
+#   people:
+#     - name: Ernests Lavrinovićs
+#       description: Research Assistant (2024–)
+#       website: https://ernlavr.github.io/
+#       picture: people/Ernests.jpg
+  
 
 ---
 

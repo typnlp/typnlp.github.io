@@ -49,19 +49,10 @@ staff:
       description: PhD Fellow (2024–)
       website: https://ernlavr.github.io/
       picture: people/Ernests.jpg
-    - name: Rasmus Thyge Aavang Jensen
-      description: Industrial PhD (2024–)
+    - name: Rasmus Jensen
+      description: Industrial PhD Fellow (2024–)
       website: https://vbn.aau.dk/da/persons/rtaj
       picture: typnlp-5.png
-
-# support:
-#   title: Support Staff
-#   people:
-#     - name: Ernests Lavrinovićs
-#       description: Research Assistant (2024–)
-#       website: https://ernlavr.github.io/
-#       picture: people/Ernests.jpg
-  
 
 ---
 

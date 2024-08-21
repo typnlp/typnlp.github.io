@@ -13,8 +13,7 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
-# groups: [staff, support]
-groups: [staff]
+groups: [staff, support]
 staff:
   title: Research Staff
   people:
@@ -55,13 +54,13 @@ staff:
       website: https://vbn.aau.dk/da/persons/rtaj
       picture: typnlp-5.png
 
-# support:
-#   title: Support Staff
-#   people:
-#     - name: Ernests Lavrinovićs
-#       description: Research Assistant (2024–)
-#       website: https://ernlavr.github.io/
-#       picture: people/Ernests.jpg
+support:
+  title: Support Staff
+  people:
+    - name: Paola Saucedo
+      description: Research Intern (2024–)
+      website: https://www.linkedin.com/in/paola-saucedo-053511293?originalSubdomain=dk
+      picture: typnlp-5.png
   
 
 ---

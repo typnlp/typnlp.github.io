@@ -29,6 +29,10 @@ staff:
       description: Postdoc (2024–)
       website: https://jjzha.github.io/
       picture: people/Mike.jpg
+    - name: Russa Biswas
+      description: Postdoc (2024–)
+      website: https://vbn.aau.dk/da/persons/rubi
+      picture: people/Russa.png
     - name: Yiyi Chen
       description: PhD Fellow (2022–)
       website: https://siebeniris.github.io/
@@ -41,14 +45,22 @@ staff:
       description: PhD Fellow (2022–)
       website: https://vbn.aau.dk/en/persons/155453/
       picture: people/Esther.jpg
-
-support:
-  title: Support Staff
-  people:
     - name: Ernests Lavrinovićs
-      description: Research Assistant (2024–)
+      description: PhD Fellow (2024–)
       website: https://ernlavr.github.io/
       picture: people/Ernests.jpg
+    - name: Rasmus Thyge Aavang Jensen
+      description: Industrial PhD (2024–)
+      website: https://vbn.aau.dk/da/persons/rtaj
+      picture: typnlp-5.png
+
+# support:
+#   title: Support Staff
+#   people:
+#     - name: Ernests Lavrinovićs
+#       description: Research Assistant (2024–)
+#       website: https://ernlavr.github.io/
+#       picture: people/Ernests.jpg
   
 
 ---

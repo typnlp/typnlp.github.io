@@ -21,6 +21,10 @@ staff:
       description: Associate Professor <br> Head of TypNLP
       website: https://bjerva.github.io/
       picture: people/Johannes.jpg
+    - name: Russa Biswas
+      description: Assistant Professor (2024–)
+      website: https://vbn.aau.dk/da/persons/rubi
+      picture: people/Russa.png
     - name: Heather Lent
       description: Postdoc (2022–)
       website: https://vbn.aau.dk/da/persons/154463/
@@ -29,10 +33,6 @@ staff:
       description: Postdoc (2024–)
       website: https://jjzha.github.io/
       picture: people/Mike.jpg
-    - name: Russa Biswas
-      description: Postdoc (2024–)
-      website: https://vbn.aau.dk/da/persons/rubi
-      picture: people/Russa.png
     - name: Yiyi Chen
       description: PhD Fellow (2022–)
       website: https://siebeniris.github.io/
